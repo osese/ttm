@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTM", "TTM\TTM.csproj", "{DE7794A7-92F3-43AC-B38C-E0135CAC03E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF908DD4-0B18-4A36-A652-0D42ACDC2535} = {DF908DD4-0B18-4A36-A652-0D42ACDC2535}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote", "Remote\Remote.csproj", "{522E00CD-1224-461F-923D-7648CDF28997}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81315C76-7273-4CB3-92E9-E5B077F3D59F} = {81315C76-7273-4CB3-92E9-E5B077F3D59F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATA", "DATA\DATA.csproj", "{81315C76-7273-4CB3-92E9-E5B077F3D59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMControls", "TTMControls\TTMControls.csproj", "{DF908DD4-0B18-4A36-A652-0D42ACDC2535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTMControlsTEST", "TTMControlsTEST\TTMControlsTEST.csproj", "{89418904-A821-4D0F-8F45-D0CC7016C541}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF908DD4-0B18-4A36-A652-0D42ACDC2535} = {DF908DD4-0B18-4A36-A652-0D42ACDC2535}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE7794A7-92F3-43AC-B38C-E0135CAC03E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7794A7-92F3-43AC-B38C-E0135CAC03E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7794A7-92F3-43AC-B38C-E0135CAC03E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7794A7-92F3-43AC-B38C-E0135CAC03E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522E00CD-1224-461F-923D-7648CDF28997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522E00CD-1224-461F-923D-7648CDF28997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522E00CD-1224-461F-923D-7648CDF28997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522E00CD-1224-461F-923D-7648CDF28997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81315C76-7273-4CB3-92E9-E5B077F3D59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81315C76-7273-4CB3-92E9-E5B077F3D59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81315C76-7273-4CB3-92E9-E5B077F3D59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81315C76-7273-4CB3-92E9-E5B077F3D59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF908DD4-0B18-4A36-A652-0D42ACDC2535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF908DD4-0B18-4A36-A652-0D42ACDC2535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF908DD4-0B18-4A36-A652-0D42ACDC2535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF908DD4-0B18-4A36-A652-0D42ACDC2535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89418904-A821-4D0F-8F45-D0CC7016C541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89418904-A821-4D0F-8F45-D0CC7016C541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89418904-A821-4D0F-8F45-D0CC7016C541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89418904-A821-4D0F-8F45-D0CC7016C541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDCCC3ED-9EFD-4786-A380-35E6B7B9ABBD}
+	EndGlobalSection
+EndGlobal
